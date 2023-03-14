@@ -1,0 +1,31 @@
+body {
+  background-color: #384050b6;
+}
+.App {
+  width: 1200px;
+  min-height: 100vh;
+  margin: 64px auto;
+
+  .App-header {
+    display: flex;
+    height: 244px;
+    border-radius: 16px;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(201, 174, 174, 0.267));
+    .left {
+      display: flex;
+      padding: 30px;
+      width: 50%;
+      .avatar {
+        img {
+          width: 192px;
+          height: 184px;
+          border-radius: 16px;
+        }
+      }
+    }
+    .contact {
+      display: flex;
+      padding: 30px;
+    }
+  }
+}
